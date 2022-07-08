@@ -32,7 +32,7 @@ output wire [NUM*NUM - 1:0] resultvalid;
 
 wire [WL - 1:0] weightvaluewire[NUM - 1:0][NUM- 1:0], featurevaluewire[NUM - 1:0][NUM- 1:0];
 
-wire weigthvalidwire[NUM - 1:0][NUM- 1:0], weigthendwire[NUM - 1:0][NUM- 1:0], featurevalidwire[NUM - 1:0][NUM- 1:0], featurevalidwire[NUM - 1:0][NUM- 1:0];
+wire weigthvalidwire[NUM - 1:0][NUM- 1:0], weigthendwire[NUM - 1:0][NUM- 1:0], featurevalidwire[NUM - 1:0][NUM- 1:0];
 
 genvar i,j;
 generate
